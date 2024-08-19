@@ -99,3 +99,44 @@ box-shadow: 0 5px 10px rgba(255,26,26,0.22);
     color: #fff;
     
 }
+
+/* -------------------------------media-query----------------------------- */
+
+@media (max-width:600px){
+    .music-player{
+        width: 100%;
+        padding: 25px 35px;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    
+    .song-img {
+        width: 200px;
+    }
+    
+    .music-player h1{
+        font-size: 20px;
+        font-weight: 400;
+        color: #333;
+        margin-top: 20px;
+    }
+    
+    .music-player p{
+        font-size: 14px;
+        color: #333;
+    }
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .controls div{
+        width: 40px;
+        height: 40px;
+    }
+}
